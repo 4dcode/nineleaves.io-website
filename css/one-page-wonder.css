@@ -69,7 +69,7 @@ header.masthead .masthead-content {
 }
 
 header.masthead .masthead-content .masthead-heading {
-  font-size: 4rem;
+  font-size: 2rem;
   color:#FFFFFF;
 }
 
@@ -140,7 +140,7 @@ scroll-container {
     padding-bottom: 10rem;
   }
   header.masthead .masthead-content .masthead-heading {
-    font-size: 6rem;
+    font-size: 4rem;
     color:#FFFFFF;
   }
   header.masthead .masthead-content .masthead-subheading {
@@ -175,9 +175,10 @@ scroll-container {
   border-color: #bd0760 !important;
 }
 
-.btn-primary_green:active, .btn-primary:focus, .btn-primary:hover {
+.btn-primary_green:active, .btn-primary_green:focus, .btn-primary_green:hover {
   background-color: #607812 !important;
   border-color: #607812 !important;
+  color: #FFF;
 }
 
 .btn-primary:focus {
