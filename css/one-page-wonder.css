@@ -63,19 +63,48 @@ header.masthead {
   background-size: cover;
 }
 
+header.masthead_aethetics {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(10rem + 200px);
+  padding-bottom: 7rem;
+  /*background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%); */
+  background: #323232 url(../img/medical_aesthetic_bg.jpg) center 0 no-repeat;"
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+
+
 header.masthead .masthead-content {
   z-index: 1;
   position: relative;
 }
+header.masthead_aethetics .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
 
 header.masthead .masthead-content .masthead-heading {
   font-size: 2rem;
   color:#FFFFFF;
 }
+header.masthead_aethetics .masthead_aethetics-content .masthead-heading {
+  font-size: 4rem;
+  color:#71564b;
+}
+
 
 header.masthead .masthead-content .masthead-subheading {
   font-size: 2rem;
 }
+header.masthead_aethetics .masthead-content .masthead-subheading {
+  font-size: 2rem;
+}
+
 
 header.masthead .bg-circle {
   z-index: 0;
@@ -168,6 +197,13 @@ scroll-container {
   border-color: #61792d;
   color:#FFFFFF;
 }
+
+.btn-primary_creme {
+  background-color: #d9aa8f;
+  border-color: #805842;
+  color:#FFFFFF;
+}
+
 
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
